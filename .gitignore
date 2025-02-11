@@ -1,0 +1,57 @@
+# Byte-compiled / cached files
+__pycache__/
+*.py[cod]
+*.so
+*.pyd
+*.pyo
+*.pdb
+
+# Virtual environment
+venv/
+.env
+.envrc
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs & Debug files
+logs/
+*.log
+*.out
+*.err
+
+# Database files
+*.sqlite3
+*.db
+*.sql
+
+# FastAPI static & media files (optional)
+static/
+media/
+
+# Migrations (if using Alembic)
+migrations/
+
+# Docker-related files
+docker-compose.override.yml
+.dockerignore
+
+# Jupyter Notebook checkpoints (if used)
+.ipynb_checkpoints/
+
+# Test coverage reports
+htmlcov/
+.coverage
+.tox/
+.nox/
